@@ -1,4 +1,4 @@
-          LANGKAH LAHNGKAH MEMBUAT REPOSITORY DAN MEMBUAT FILE README.md
+LANGKAH LAHNGKAH MEMBUAT REPOSITORY DAN MEMBUAT FILE README.md
 
 PERTAMA BUATLAH AKUN GITHUB TERLEBIH DAHULU CARANYA ADA DI BAWAH:
 1. BUAT AKUN GITHUB DI https://github.com ISI DATA DIRI LALU KLIK SIGN UP
@@ -42,3 +42,44 @@ SETELAH SUDAH MEMBUAT AKUN SEKANRANG  INSTALL SOFTWARE GIT TERLEBIH DAHULU CARAN
 ![11](https://user-images.githubusercontent.com/56957271/67542559-82116f80-f717-11e9-8d12-cf4e3ed42fa6.jpg)
 12. proses instalasi sudah selesai dilakukan
 ![12](https://user-images.githubusercontent.com/56957271/67542590-abca9680-f717-11e9-926d-486a5c46ed4f.jpg)
+
+setelah melakukan penginstalan coba Cek apakah Git sudah bisa digunakan atau belum dengan cara membuka Command Prompt dan ketik git --version, jika muncul versi Git maka proses yang dilakukan sudah berjalan dengan baik dan Git siap untuk digunakan.
+![cmd](https://user-images.githubusercontent.com/56957271/67547237-b3466b80-f728-11e9-979d-c47235ba0709.JPG)
+
+setelah selesai, laulu klik kanan pilih GIT BASH HERE
+![bash](https://user-images.githubusercontent.com/56957271/67547375-2354f180-f729-11e9-9456-dd8a6029234e.jpg)
+
+nah kita akan memulai membuat README.md IKUTI LANGAKAH-LANGKAHNYA DI BAWAH:
+1. KONFIGURASI DENGAN MEMASUKAN PERINTAH " git config --global user.name “nama_user” " DAN " git config --global user.email “nama_user” "
+![1](https://user-images.githubusercontent.com/56957271/67547604-c3ab1600-f729-11e9-8478-f1c50c716983.jpg)
+
+2. BUAT DIREKTORI BARU DENGAN MENGGUNAKAN PERINTAH " mkdir latihan1" LALU " cd latihan1 "
+![2](https://user-images.githubusercontent.com/56957271/67547674-e89f8900-f729-11e9-8c56-847428732f8c.jpg)
+
+3. JALAN KAN PERINTAH " git init " UNTUK MEMBUAT FILE KOSONG BERFORMAT .GIT
+![3](https://user-images.githubusercontent.com/56957271/67547728-1553a080-f72a-11e9-8e06-d8a8a9e3cf03.jpg)
+
+4. LALU BUAT 1 FILE BERNAMA README.md DENGAN MEMASUKAN PERINTAH " echo "#latihanpytn1" >> README.md “ LALU KETIKAN PERINTAH " ls -l " UNTUK MELIHAT FILE
+![4](https://user-images.githubusercontent.com/56957271/67547791-403df480-f72a-11e9-876c-df3b500dda29.jpg)
+
+5. MENAMBAHKAN FILE README.md PADA REPOSITORY LOCAL DENGAN MENGGUNAKAN PERINTAH " git add "
+![5](https://user-images.githubusercontent.com/56957271/67547882-711e2980-f72a-11e9-9082-65ddd77b1bd1.jpg)
+
+6. KETIK PERINTAH " git commit -m " komentar saya " UNTUK MENYIMPAN PERUBAHAN YANG ADA KE DALAM DATABASE REPOSITORY
+![6](https://user-images.githubusercontent.com/56957271/67547930-9c087d80-f72a-11e9-9872-0c0ec6745fea.jpg)
+
+7. KEMUDIAN MASUK KE WEBSITE GITHUB LALU MASUK KE REPOSITORI YANG SEBELUM NYA DI BUAT...
+PADA BAGIAN QUICK SETUP TERDAPAT URL GITHUB KITA... URL INI NANTINYA AKAN DI GUNAKAN MENGGUNAKAN PERINTAH “git remote add origin [url] “ DAN PERINTAH GIT CLONE “ git clone [ url ] “
+![7](https://user-images.githubusercontent.com/56957271/67548504-2bfaf700-f72c-11e9-8d7a-5dead10c79f5.jpg)
+
+8. LALU KETIKAN PERINTAH " git remote add origin [url] " CONTOH " git remote add origin https://github.com/haekal99/Latihan1.git "
+![8](https://user-images.githubusercontent.com/56957271/67548878-3669c080-f72d-11e9-895d-ea576ec10803.jpg)
+
+9. UNTUK MENGIRIM PERUBAHAN LOCAL REPOSITORY KE SERVER GUNAKAN PERINTAH GIT PUSH " git push -u origin master "
+![p;](https://user-images.githubusercontent.com/56957271/67549166-d32c5e00-f72d-11e9-9e10-1248de2f49c5.JPG)
+
+10. UNTUK MELIHAT HASIL NYA CEK DI github DAN LIHAT DI REPOSITORY NYA
+![tampilan setelah selesai](https://user-images.githubusercontent.com/56957271/67549273-125aaf00-f72e-11e9-9133-de318f4b9cec.JPG)
+
+11. JIKA INGIN MELAKUKAN CLONE REPOSITORY GUNAKAN PERINTAH " git clone [ url ] " CONTOH " git clone https://github.com/haekal99/Latihan1.git "
+![lo](https://user-images.githubusercontent.com/56957271/67549512-a298f400-f72e-11e9-8e46-e154cde7e5b0.JPG)
